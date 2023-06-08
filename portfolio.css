@@ -39,15 +39,14 @@ a:hover {
 .title {
     background-image: url("bck.jpeg");
     text-align: center;
-    padding: 200px ;
     background-position: center;
     background-size: 1440px 600.9px;
     background-repeat: no-repeat;
-    height: 100%;
+    height: 500px;
     position: relative;
     z-index: 1;
     color: #fff;
-    
+    line-height: 500px;
 }
 .background {
     position: absolute;
@@ -180,6 +179,7 @@ a:hover {
     border: solid 5px #fff;
     border-radius: 50%;
     padding: 15px;
+    display: inline-block;
 
 }
 /* Project */
@@ -285,78 +285,3 @@ a:hover {
     margin: 10px;
     font-size: 20px;
 }
-@media screen and (max-width:768px){
-    /* Header */
-    .header-title{
-        font-size: 15px;
-        padding:5px;
-    }
-    .header-menu{
-        width: 50%;
-        display: flex;
-        justify-content: space-around;
-    }
-    .menu-decor{
-        width: 15%;
-        font-size: 15px;
-        padding:14px 0;
-    }
-    /* About */
-    .about-text {
-        font-size: 15px;
-    }
-    .about-left-row1{
-        height: 50%;
-    }
-    .img-about{
-        width: 80px;
-        height: 120px;
-        margin:15px 0 0 0;
-    }
-    .about-info{
-        font-size: 15px;
-    }
-    .about-left-row2{
-        font-size: 15px;
-    }
-    /* Skills */
-    .icon-size{
-        font-size: 30px;
-        padding: 10px;
-        height: 40px;
-        width: 40px;
-    }
-    .skill-text{
-        font-size: 13px;
-    }
-    /* Awards */
-    .awards-sized{
-        width: 24%;
-    }
-    /* Project */
-    .project-boxes{
-        height: 270px;
-    }
-    /* Contact */
-    .input-text{
-        width: 90%;
-        height: 30px;
-        margin: 10px;
-        font-size: 20px;
-    }
-    .message {
-        width: 90%;
-       height: 80px;
-    }
-    .contact-button{
-        height: 70px;
-        width: 120px;
-        font-size: 15px;
-    }
-    .contact-text{
-        font-size: 15px;
-    }
-}
-
-
-
