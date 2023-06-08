@@ -12,18 +12,22 @@
     }
     .header-title{
         font-size: 15px;
-        padding:5px;
+        width: 100%;
     }
     .header-menu{
         width: 100%;
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
     }
     .menu-decor{
-        width: 19%;
-        font-size: 16px;
-        padding:14px 0;
-    }    
+        width: 50px;
+        font-size: 10px;
+        padding:14px 14px;
+    }
+    /* Title */
+    .title-name{
+        font-size:40px ;
+    }
     /* About */
     .about{
         flex-direction: column;
@@ -34,6 +38,7 @@
     }
     .about-left{
         width: 100%;
+        padding: 0;
     }
     .about-left-row1{
         width: 100%;
@@ -103,6 +108,7 @@
     /* Contact */
     .contact-box{
         flex-direction: column-reverse;
+        padding:0
     }
     .input-text{
         width: 90%;
