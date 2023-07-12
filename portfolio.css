@@ -4,16 +4,16 @@
     text-align: center;
 }
 /*Header*/
-a {
-    background-color: none;
+.menu-decor {
+    background-color: rgb(201, 201, 201);
     color: white;
-    padding: 14px 25px;
+    padding: 20px 14px 0 14px;
     text-align: center; 
     text-decoration: none;
     display: inline-block;
 }
 
-a:hover {
+.menu-decor:hover {
     background-color: rgb(100,100,100);
 }
 .header {
@@ -23,6 +23,7 @@ a:hover {
     width: 100%;
     z-index: 2;
     color: white;
+    background-color: rgb(201, 201, 201);
 
 }
 .header.title {
@@ -37,7 +38,7 @@ a:hover {
 }
 /* Title */
 .title {
-    background-image: url("bck.jpeg");
+    background-image: url("./image/bck.jpeg");
     text-align: center;
     background-position: center;
     background-size: 1440px 600.9px;
@@ -103,6 +104,32 @@ a:hover {
     padding: 0 30px;
 }
 /* Skill */
+.skill-box-size:hover {
+    box-shadow: 0 0 5px 7px rgba(0, 0, 0, 0.306);
+    transform: scale(1.1);
+    transition: 0.5s ease;
+}
+.skill-link{
+    height: 164px;
+    width: 164px;
+    padding:0px;
+    display: inline-block;
+}
+.skill-text{
+    color: black;
+    font-size: 15px;
+    display: inline-block;
+    text-decoration: none;
+}
+.skill-link-text{
+    text-decoration: none;
+    color:black;
+    font-size: 15px;
+}
+.skill-link-text:hover{
+    color: aqua;
+
+}
 .skill-tilte {
     text-align: center;
 }
@@ -129,6 +156,7 @@ a:hover {
     padding: 20px;
     height: 64px;
     width: 64px;
+    color:black
 }
 .skill-box-size {
     height: 300px;
@@ -137,7 +165,6 @@ a:hover {
     border: 10px solid rgb(80, 80, 80);
     padding: 10px 20px;
     font-size: 15px;
-    font-family: 'Times New Roman', Times, serif;
     border-radius: 20px;
 }
 /* Awards */
@@ -203,35 +230,35 @@ a:hover {
     height: 60%;
 }
 .smarthouse-header {
-    background-image: url(smarthouse.jpeg);
+    background-image: url(./image/smarthouse.jpeg);
     background-size: cover;
 
 }
 .teaching-header {
-    background-image: url(teaching.jpeg);
+    background-image: url(./image/teaching.jpeg);
     background-size: cover;
 }
 .stemday-header {
-    background-image: url(stemday.jpeg);
+    background-image: url(./image/stemday.jpeg);
     background-size: cover;
 }
 .edugame-header {
-    background-image: url(edugame.jpeg);
+    background-image: url(./image/edugame.jpeg);
     background-size: cover;
 }
 .sports-header {
-    background-image: url(sport.jpg);
+    background-image: url(./image/sport.jpg);
     background-position: center;
     background-size: 360px 228px;
 }
 .vp-header {
-    background-image: url(vp.jpeg);
+    background-image: url(./image/vp.jpeg);
     background-size: cover ;
     background-position: center;
 }
 /* Contact */
 .contact {
-    background-image: url(background.jpeg);
+    background-image: url(./image/background.jpeg);
     padding:50px 0px;
     position: relative;
     background-size: cover;

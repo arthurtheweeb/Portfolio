@@ -1,0 +1,166 @@
+.main {
+
+    height: 100%;
+    text-align: center;
+}
+/*Header*/
+.menu-decor {
+    background-color: white;
+    color: #7d12ff;
+    padding: 20px 25px 0px 25px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+
+.menu-decor:hover {
+    background-color: #7d12ff;
+    color:white
+    }
+.header {
+    top:0;
+    position:fixed;
+    display:flex;
+    justify-content: space-around;
+    width: 100%;
+    z-index: 2;
+    color: #7d12ff;
+    background-color: white;
+
+
+}
+.header.title {
+    width: 30% ;
+}
+
+.header-menu {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+/* title */
+.title {
+    background-color: black;
+    position: relative;
+    height: 454px;
+    width: 100%;
+}
+.title-image {
+    height: 342px;
+    width: 807px;
+    position: absolute;
+    bottom: 0;
+    left: 100px;
+    z-index: 1;
+}
+.title-text {
+    background-color: #ffff;
+    height: 304px;
+    width: 807px;
+    z-index: 2;
+    position: absolute;
+    bottom: 0;
+    right: 75px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+/* Ban Lon */
+.image-size {
+    width: 568px;
+    height: 414px;
+}
+.box-size-left {
+    width: 980px;
+    height: 414px;
+    margin: 10px auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+.size-text-left {
+    text-align: left;
+    box-sizing: border-box;
+    padding: 0 0 0 10px;
+    font-size: 20px;
+    color: rgb(13, 33, 35);
+    line-height: 1.5;
+}
+.project-title-left {
+    text-align: left;
+    padding: 0 0 0 10px;
+    font-size: 45px;
+    margin: 20px 0;
+
+}
+.project-title-right {
+    text-align: right;
+    padding: 0 10px 0 0px;
+    font-size: 45px;
+    color: rgb(255,254,248);
+    margin: 20px 0 ;
+}
+.date-text {
+    margin-bottom: 20px;
+}
+.size-text-right {
+    text-align: right;
+    box-sizing: border-box;
+    padding: 0 10px 0 0;
+    font-size: 20px;
+    color: rgb(255, 252, 232);
+    line-height: 1.5;
+}
+.box-size-right {
+    width: 980px;
+    height: 414px;
+    margin: 10px auto;
+    display: flex;
+    margin-bottom: 50px;
+    background-color: rgb(52, 59, 101);
+}
+/* Others */
+#others {
+    text-align: center;
+    width: 980px;
+    margin:0 auto;
+}
+.others-line1 {
+    display: flex;
+    justify-content: space-around;
+    width: 980px;
+    margin: 0;
+
+}
+.others-line2 {
+    display: flex;
+    justify-content: space-around;
+    width: 980px;
+    margin: 0;
+}
+.others-boxes {
+    width: 298px;
+    height: 550px;
+    border: solid 1px rgb(2, 183, 180);
+    font-size: 35px;
+    position: relative;
+    margin-bottom: 50px;
+}
+.others-image-size {
+    height: 300px; 
+    width: 298px;
+    display: inline-block;
+    margin-bottom: 40px;
+}
+.others-button {
+     height: 45px;
+     width: 170px;
+     padding: 0 20px;
+     font-size: 20px;
+     background-color: #123033;
+     color: white;
+     position: absolute;
+     bottom:40px;
+     left: 30px;
+}
