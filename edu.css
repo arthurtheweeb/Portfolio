@@ -84,6 +84,7 @@
     z-index: 0;
     color: #fff;
     font-size: 20px;
+    box-sizing: inherit;
 }
 .fa-angle-right {
     position: absolute;
