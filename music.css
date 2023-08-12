@@ -55,13 +55,12 @@
 }
 .title-text {
     background-color: #ffff;
-    height: 304px;
-    width: 807px;
+    padding: 50px 50px;
     z-index: 2;
     position: absolute;
     bottom: 0;
     right: 75px;
-    box-sizing: border-box;
+
     display: flex;
     justify-content: center;
     flex-direction: column;
