@@ -142,24 +142,35 @@
         flex-direction: column;
         align-items: center;
     }
-    #banlon {
-        flex-direction: column;
-        align-items: center;
-    }
-    #datan {
-        flex-direction: column;
- 
-    }
-    .datan-hnn {
-        flex-direction: column;
-    
-    }
-    .image-size {
-        width: 80%;
-    }
     .title-text {
         padding:50px;
         right:100px; 
+    }
+    #banlon {
+        flex-direction: column-reverse;
+        align-items: center;
+        
+    }
+    .box-size-left {
+        flex-direction: column-reverse;
+    }
+    .image-size {
+        width: 100%;
+    }
+    .box-size-right {
+        flex-direction: column;
+    }
+    .datan-text {
+        width: 100%;
+    }
+    .datan-hn-text {
+        width: 100%;
+    }
+    .khuyetshow-text {
+        width: 100%;
+    }
+    .banlon-text {
+        width: 100%;
     }
 }
 
