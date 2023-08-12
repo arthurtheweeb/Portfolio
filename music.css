@@ -39,6 +39,9 @@
     justify-content: space-around;
 }
 /* title */
+.title-title {
+    font-size: 50px;
+}
 .title {
     background-color: black;
     position: relative;
@@ -47,11 +50,11 @@
 }
 .title-image {
     height: 342px;
-    width: 807px;
+    width: 100%;
     position: absolute;
     bottom: 0;
-    left: 100px;
     z-index: 1;
+    left: 0;
 }
 .title-text {
     background-color: #ffff;
@@ -60,20 +63,22 @@
     position: absolute;
     bottom: 0;
     right: 75px;
-
     display: flex;
     justify-content: center;
     flex-direction: column;
     
 }
 /* Ban Lon */
+.banlon-text {
+    width: 50%;
+}
 .image-size {
-    width: 568px;
-    height: 414px;
+    max-width: 100%;
+    max-height: 414px;
 }
 .box-size-left {
-    width: 980px;
-    height: 414px;
+    max-width: 980px;
+    padding: 20px;
     margin: 10px auto;
     display: flex;
     margin-bottom: 50px;
@@ -112,30 +117,39 @@
     line-height: 1.5;
 }
 .box-size-right {
-    width: 980px;
-    height: 414px;
+    padding: 20px;
+    max-width: 980px;
     margin: 10px auto;
     display: flex;
     margin-bottom: 50px;
     background-color: rgb(52, 59, 101);
 }
+.datan-text {
+    width: 50%;
+}
+.datan-hn-text {
+    width: 50%;
+}
+.khuyetshow-text {
+    width: 50%;
+}
 /* Others */
 #others {
     text-align: center;
-    width: 980px;
+    width: 100%;
     margin:0 auto;
 }
 .others-line1 {
     display: flex;
     justify-content: space-around;
-    width: 980px;
+    width: 100%;
     margin: 0;
 
 }
 .others-line2 {
     display: flex;
     justify-content: space-around;
-    width: 980px;
+    width: 100%;
     margin: 0;
 }
 .others-boxes {
